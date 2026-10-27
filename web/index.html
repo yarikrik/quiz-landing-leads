@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FixRight Appliance Repair — Same-day repair in Austin, TX</title>
+  <meta name="description" content="Answer 6 quick questions and get a same-day appliance repair estimate. Refrigerators, washers, dryers, dishwashers, ovens.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__in">
+      <a class="logo" href="#" aria-label="FixRight home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M19.6 8.2a5 5 0 0 0-6 6.4l-5.3 5.3a1.9 1.9 0 1 0 2.7 2.7l5.3-5.3a5 5 0 0 0 6.4-6l-2.9 2.9-2.4-.7-.7-2.4z" fill="#fff"/></svg>
+        <span>Fix<b>Right</b></span>
+      </a>
+      <div class="topbar__right">
+        <span class="hours"><i class="dot"></i>Open today · 7am–9pm</span>
+        <a class="call" href="tel:+15125550100">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg>
+          <span>(512) 555-0100</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">Austin · Round Rock · Cedar Park · Pflugerville</p>
+          <h1>Broken appliance? <span>A technician can be at your door today.</span></h1>
+          <p class="lead">Answer 6 quick questions and get an arrival window and a repair estimate — usually within 15 minutes.</p>
+          <ul class="perks">
+            <li><svg viewBox="0 0 20 20"><path d="m5 10.5 3.2 3.2L15 7" /></svg>Same-day &amp; next-day appointments</li>
+            <li><svg viewBox="0 0 20 20"><path d="m5 10.5 3.2 3.2L15 7" /></svg>Diagnostic fee waived if you repair with us</li>
+            <li><svg viewBox="0 0 20 20"><path d="m5 10.5 3.2 3.2L15 7" /></svg>90-day warranty on parts and labor</li>
+            <li><svg viewBox="0 0 20 20"><path d="m5 10.5 3.2 3.2L15 7" /></svg>Licensed &amp; insured technicians</li>
+          </ul>
+        </div>
+
+        <div class="quiz" id="quiz" aria-live="polite">
+          <div class="quiz__head">
+            <div class="quiz__title">Get your repair estimate</div>
+            <div class="quiz__meta"><span id="stepLabel">Step 1 of 7</span><span id="stepHint">~1 minute</span></div>
+            <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100"><div class="progress__bar" id="progress"></div></div>
+          </div>
+          <div class="quiz__body" id="quizBody">
+            <div class="skeleton"></div>
+          </div>
+          <div class="quiz__foot" id="quizFoot">
+            <button type="button" class="back" id="backBtn" hidden>← Back</button>
+            <span class="secure"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 9V7a4 4 0 1 1 8 0v2m-9 0h10v8H5z"/></svg>Your info is never shared or sold</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <ol class="how__grid">
+          <li><b>1</b><h3>Tell us what's wrong</h3><p>Six taps: appliance, symptom, brand, age, timing and ZIP code.</p></li>
+          <li><b>2</b><h3>Get a call back</h3><p>A dispatcher confirms the arrival window and a ballpark price for your repair.</p></li>
+          <li><b>3</b><h3>We fix it</h3><p>The technician arrives with common parts for your brand and most repairs are done on the first visit.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="brands">
+      <div class="wrap">
+        <p>We service all major brands</p>
+        <ul><li>Whirlpool</li><li>Samsung</li><li>LG</li><li>GE</li><li>Frigidaire</li><li>Maytag</li><li>Bosch</li><li>KitchenAid</li></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© FixRight Appliance Repair · Austin, TX</p>
+      <p class="demo">Portfolio demo: FixRight is a fictional company. Form submissions go to the site owner's Telegram and Google Sheets.</p>
+    </div>
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
